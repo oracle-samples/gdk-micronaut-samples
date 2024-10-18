@@ -36,6 +36,10 @@ GDK modules are designed for ahead-of-time compilation with GraalVM Native Image
 
 For more information about the Graal Development Kit for Micronaut (GDK), see https://graal.cloud/gdk.
 
+## Contributing
+
+This project welcomes contributions from the community. Before submitting a pull request, please [review our contribution guide](./CONTRIBUTING.md).
+
 ## Security
 
 Please consult the [security guide](./SECURITY.md) for our responsible security vulnerability disclosure process
