@@ -1,6 +1,6 @@
 # Build a Java application with the Graal Development Kit for Micronaut (GDK), Oracle Cloud Infrastructure (OCI) Autonomous Database (ADB) and Secrets in Vault
 
-This repo contains the sample code used in the Live Labs workshop --> [Build a Java application with the Graal Development Kit for Micronaut (GDK), Oracle Cloud Infrastructure (OCI) Autonomous Database (ADB) and Secrets in Vault](https://apexapps.oracle.com/pls/apex/r/dbpm/livelabs/view-workshop?wid=4020)
+This repo contains the sample code used in the Live Labs workshop --> [Build a Java application with the Graal Development Kit for Micronaut (GDK), Oracle Cloud Infrastructure (OCI) Autonomous Database (ADB) and Secrets in Vault](https://livelabs.oracle.com/pls/apex/r/dbpm/livelabs/view-workshop?wid=4020)
 
 ## Git clone this sample
 

@@ -1,6 +1,6 @@
 # Build a Java application with the Graal Development Kit for Micronaut (GDK), and OCI Object Storage
 
-This repo contains the sample code used in the Live Labs workshop --> [Build a Java application with the Graal Development Kit for Micronaut (GDK), and Oracle Cloud Infrastructure (OCI) Object Storage](https://apexapps.oracle.com/pls/apex/r/dbpm/livelabs/view-workshop?wid=3858)
+This repo contains the sample code used in the Live Labs workshop --> [Build a Java application with the Graal Development Kit for Micronaut (GDK), and Oracle Cloud Infrastructure (OCI) Object Storage](https://livelabs.oracle.com/pls/apex/r/dbpm/livelabs/view-workshop?wid=3858)
 
 ## Git clone this sample
 

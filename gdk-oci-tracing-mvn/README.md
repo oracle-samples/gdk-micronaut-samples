@@ -1,6 +1,6 @@
 # Configure a Java Application to Send Traces to Oracle Cloud Infrastructure (OCI) APM Tracing with the Graal Development Kit for Micronaut (GDK)
 
-This repo contains the sample code used in the Live Labs workshop --> [Configure a Java application to send traces to Oracle Cloud Infrastructure (OCI) APM Tracing with the Graal Development Kit for Micronaut (GDK)](https://apexapps.oracle.com/pls/apex/r/dbpm/livelabs/view-workshop?wid=4052)
+This repo contains the sample code used in the Live Labs workshop --> [Configure a Java application to send traces to Oracle Cloud Infrastructure (OCI) APM Tracing with the Graal Development Kit for Micronaut (GDK)](https://livelabs.oracle.com/pls/apex/r/dbpm/livelabs/view-workshop?wid=4052)
 
 ## Git clone this sample
 

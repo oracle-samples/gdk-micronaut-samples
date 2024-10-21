@@ -1,6 +1,6 @@
 # Build a Java application with the Graal Development Kit for Micronaut (GDK), and OCI Email Delivery
 
-This repo contains the sample code used in the Live Labs workshop --> [Build a Java application with the Graal Development Kit for Micronaut (GDK), and Oracle Cloud Infrastructure (OCI) Email Delivery](https://apexapps.oracle.com/pls/apex/r/dbpm/livelabs/view-workshop?wid=4001)
+This repo contains the sample code used in the Live Labs workshop --> [Build a Java application with the Graal Development Kit for Micronaut (GDK), and Oracle Cloud Infrastructure (OCI) Email Delivery](https://livelabs.oracle.com/pls/apex/r/dbpm/livelabs/view-workshop?wid=4001)
 
 ## Git clone this sample
 
