@@ -1,6 +1,6 @@
 # Configure a Java application to send application logs to Oracle Cloud Infrastructure (OCI) Logging using the Graal Development Kit for Micronaut (GDK)
 
-This repo contains the sample code used in the Live Labs workshop --> [Configure a Java application to send application logs to Oracle Cloud Infrastructure (OCI) Logging using the Graal Development Kit for Micronaut (GDK)](https://apexapps.oracle.com/pls/apex/r/dbpm/livelabs/view-workshop?wid=4014)
+This repo contains the sample code used in the Live Labs workshop --> [Configure a Java application to send application logs to Oracle Cloud Infrastructure (OCI) Logging using the Graal Development Kit for Micronaut (GDK)](https://livelabs.oracle.com/pls/apex/r/dbpm/livelabs/view-workshop?wid=4014)
 
 ## Git clone this sample
 

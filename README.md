@@ -9,10 +9,10 @@ Below is the list of code samples available in this repository:
 1. [GDK OCI Object Storage](./gdk-oci-object-store-mvn/)
 2. [GDK OCI Email](./gdk-oci-email-mvn/)
 3. [GDK OCI Autonomous Database with Secrets in the Vault](./gdk-oci-adb-mvn/)
-4. [GDK OCI Logging](./gdk-oci-logging-mvn/)
-5. [GDK OCI Tracing](./gdk-oci-tracing-mvn/)
-6. [GDK OCI Metrics](./gdk-oci-metrics-mvn/)
-7. [GDK OCI MySQL HeatWave with Secrets in the Vault](./gdk-oci-mysql-mvn/)
+4. [GDK OCI MySQL HeatWave with Secrets in the Vault](./gdk-oci-mysql-mvn/)
+5. [GDK OCI Logging](./gdk-oci-logging-mvn/)
+6. [GDK OCI Tracing](./gdk-oci-tracing-mvn/)
+7. [GDK OCI Metrics](./gdk-oci-metrics-mvn/)
 
 ## Documentation
 
