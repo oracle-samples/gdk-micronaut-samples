@@ -13,11 +13,11 @@ echo "gdk-oci-email-mvn/*">>.git/info/sparse-checkout
 git pull --depth=1 origin main
 ```
 
-## Micronaut 4.7.4 Documentation
+## Micronaut 4.7.3 Documentation
 
-- [User Guide](https://docs.micronaut.io/4.7.4/guide/)
-- [API Reference](https://docs.micronaut.io/4.7.4/api/)
-- [Configuration Reference](https://docs.micronaut.io/4.7.4/guide/configurationreference.html)
+- [User Guide](https://docs.micronaut.io/4.7.3/guide/)
+- [API Reference](https://docs.micronaut.io/4.7.3/api/)
+- [Configuration Reference](https://docs.micronaut.io/4.7.3/guide/configurationreference.html)
 - [Micronaut Guides](https://guides.micronaut.io/)
 ---
 - [Micronaut Maven Plugin documentation](https://micronaut-projects.github.io/micronaut-maven-plugin/latest/)
