@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-Copyright 2024 Oracle and/or its affiliates
+Copyright 2025 Oracle and/or its affiliates
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
@@ -108,16 +108,17 @@ limitations under the License.
     </resources>
 
     <plugins>
-      <plugin>
-        <groupId>com.google.cloud.tools</groupId>
-        <artifactId>jib-maven-plugin</artifactId>
-        <configuration>
-          <to>
-            <image>${project.name}</image>
-          </to>
-        </configuration>
-      </plugin>
-      <plugin>
+     <plugin>
+       <groupId>org.graalvm.buildtools</groupId>
+       <artifactId>native-maven-plugin</artifactId>
+       <configuration>
+        <metadataRepository>
+          <enabled>true</enabled>
+          <version>0.3.15</version>
+        </metadataRepository>
+       </configuration>
+     </plugin>
+     <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-enforcer-plugin</artifactId>
       </plugin>
