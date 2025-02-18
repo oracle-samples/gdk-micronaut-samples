@@ -1,0 +1,63 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  namespace: ${K8S_NAMESPACE} # <i>
+  name: "gdk-os-oke-oci"
+spec:
+  selector:
+    matchLabels:
+      app: "gdk-os-oke-oci"
+  template:
+    metadata:
+      labels:
+        app: "gdk-os-oke-oci"
+    spec:
+      serviceAccountName: gdk-service-acct # <ii>
+      automountServiceAccountToken: true
+      containers:
+        - name: "gdk-os-oke-oci"
+          image: ${OCI_OS_OKE_IMAGE} # <iii>
+          imagePullPolicy: Always # <iv>
+          ports:
+            - name: http
+              containerPort: 8080
+          readinessProbe:
+            httpGet:
+              path: /health/readiness
+              port: 8080
+            initialDelaySeconds: 5
+            timeoutSeconds: 3
+          livenessProbe:
+            httpGet:
+              path: /health/liveness
+              port: 8080
+            initialDelaySeconds: 5
+            timeoutSeconds: 3
+            failureThreshold: 10
+          env:
+          - name: OCI_OS_NS # <v>
+            value: ${OCI_OS_NS}
+          - name: OCI_OS_BUCKET_NAME # <v>
+            value: ${OCI_OS_BUCKET_NAME}
+          - name: MICRONAUT_ENVIRONMENTS # <vi>
+            value: "oraclecloud"
+      imagePullSecrets: # <vii>
+        - name: ocirsecret
+---
+apiVersion: v1
+kind: Service
+metadata:
+  namespace: ${K8S_NAMESPACE} # <i>
+  name: "gdk-os-oke-oci"
+  annotations: # <ii>
+    oci.oraclecloud.com/load-balancer-type: "lb"
+    service.beta.kubernetes.io/oci-load-balancer-shape: "flexible"
+    service.beta.kubernetes.io/oci-load-balancer-shape-flex-min: "10"
+    service.beta.kubernetes.io/oci-load-balancer-shape-flex-max: "10"
+spec:
+  selector:
+    app: "gdk-os-oke-oci"
+  type: LoadBalancer
+  ports:
+    - protocol: "TCP"
+      port: 8080
