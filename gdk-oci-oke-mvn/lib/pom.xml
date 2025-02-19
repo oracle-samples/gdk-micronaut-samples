@@ -48,10 +48,6 @@ limitations under the License.
 
   <dependencies>
     <dependency>
-      <groupId>io.micronaut.oraclecloud</groupId>
-      <artifactId>micronaut-oraclecloud-oke-workload-identity</artifactId>
-    </dependency>
-    <dependency>
       <groupId>io.micronaut</groupId>
       <artifactId>micronaut-inject</artifactId>
       <scope>compile</scope>
