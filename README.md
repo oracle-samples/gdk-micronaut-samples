@@ -13,6 +13,7 @@ Below is the list of code samples available in this repository:
 5. [GDK OCI Logging](./gdk-oci-logging-mvn/)
 6. [GDK OCI Tracing](./gdk-oci-tracing-mvn/)
 7. [GDK OCI Metrics](./gdk-oci-metrics-mvn/)
+8. [GDK OCI OKE](./gdk-oci-oke-mvn/)
 
 ## Documentation
 
