@@ -1,6 +1,6 @@
 # Deploy a Java Microservice to OCI Container Engine for Kubernetes (OKE) using the Graal Development Kit for Micronaut (GDK), and OCI Object Storage
 
-This repo contains the sample code used in the Live Labs workshop --> [Deploy a Java Microservice to Oracle Cloud Infrastructure Container Engine for Kubernetes (OKE) using the Graal Development Kit for Micronaut (GDK)](https://livelabs.oracle.com/pls/apex/r/dbpm/livelabs/view-workshop?wid=3858)
+This repo contains the sample code used in the Live Labs workshop --> [Deploy a Java Microservice to Oracle Cloud Infrastructure Container Engine for Kubernetes (OKE) using the Graal Development Kit for Micronaut (GDK)](https://livelabs.oracle.com/pls/apex/r/dbpm/livelabs/view-workshop?wid=4118)
 
 ## Git clone this sample
 
