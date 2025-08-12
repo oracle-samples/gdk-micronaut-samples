@@ -118,7 +118,7 @@ limitations under the License.
        <configuration>
         <metadataRepository>
           <enabled>true</enabled>
-          <version>0.3.15</version>
+          <version>0.3.22</version>
         </metadataRepository>
        </configuration>
      </plugin>
@@ -133,12 +133,12 @@ limitations under the License.
       <plugin>
         <groupId>gg.jte</groupId>
         <artifactId>jte-maven-plugin</artifactId>
-        <version>3.1.14</version>
+        <version>3.2.1</version>
         <dependencies>
           <dependency>
             <groupId>gg.jte</groupId>
             <artifactId>jte-native-resources</artifactId>
-            <version>3.1.14</version>
+            <version>3.2.1</version>
           </dependency>
         </dependencies>
           <configuration>
