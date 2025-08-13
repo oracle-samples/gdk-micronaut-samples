@@ -14,11 +14,11 @@ git pull --depth=1 origin main
 ## code gdk-oci-object-store-mvn
 ```
 
-## Micronaut 4.7.3 Documentation
+## Micronaut 4.9.1 Documentation
 
-- [User Guide](https://docs.micronaut.io/4.7.3/guide/)
-- [API Reference](https://docs.micronaut.io/4.7.3/api/)
-- [Configuration Reference](https://docs.micronaut.io/4.7.3/guide/configurationreference.html)
+- [User Guide](https://docs.micronaut.io/4.9.1/guide/)
+- [API Reference](https://docs.micronaut.io/4.9.1/api/)
+- [Configuration Reference](https://docs.micronaut.io/4.9.1/guide/configurationreference.html)
 - [Micronaut Guides](https://guides.micronaut.io/)
 ---
 - [Micronaut Maven Plugin documentation](https://micronaut-projects.github.io/micronaut-maven-plugin/latest/)

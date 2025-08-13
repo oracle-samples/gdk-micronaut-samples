@@ -20,7 +20,7 @@ limitations under the License.
     <parent>
         <groupId>cloud.graal.gdk</groupId>
         <artifactId>gdk-parent</artifactId>
-        <version>4.7.3.4</version>
+        <version>4.9.1.1</version>
     </parent>
     <repositories>
         <repository>

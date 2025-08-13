@@ -164,7 +164,7 @@ limitations under the License.
        <configuration>
         <metadataRepository>
           <enabled>true</enabled>
-          <version>0.3.15</version>
+          <version>0.3.22</version>
         </metadataRepository>
        </configuration>
      </plugin>
