@@ -14,11 +14,11 @@ git pull --depth=1 origin main
 ## code gdk-oci-oke-mvn
 ```
 
-## Micronaut 4.7.3 Documentation
+## Micronaut 4.9.1 Documentation
 
-- [User Guide](https://docs.micronaut.io/4.7.3/guide/)
-- [API Reference](https://docs.micronaut.io/4.7.3/api/)
-- [Configuration Reference](https://docs.micronaut.io/4.7.3/guide/configurationreference.html)
+- [User Guide](https://docs.micronaut.io/4.9.1/guide/)
+- [API Reference](https://docs.micronaut.io/4.9.1/api/)
+- [Configuration Reference](https://docs.micronaut.io/4.9.1/guide/configurationreference.html)
 - [Micronaut Guides](https://guides.micronaut.io/)
 ---
 - [Micronaut Maven Plugin documentation](https://micronaut-projects.github.io/micronaut-maven-plugin/latest/)
@@ -34,11 +34,9 @@ git pull --depth=1 origin main
 - [https://kubernetes.io/docs/home/](https://kubernetes.io/docs/home/)
 
 
-## Feature kubernetes-client documentation
+## Feature kubernetes-client-openapi documentation
 
-- [Micronaut Official Kubernetes Java Client documentation](https://micronaut-projects.github.io/micronaut-kubernetes/latest/guide/#kubernetes-client)
-
-- [https://github.com/kubernetes-client/java/wiki](https://github.com/kubernetes-client/java/wiki)
+- [Micronaut The Micronaut Kubernetes Client OpenApi documentation](https://micronaut-projects.github.io/micronaut-kubernetes/latest/guide/#kubernetes-client-openapi)
 
 
 ## Feature management documentation

@@ -64,12 +64,12 @@ limitations under the License.
     </dependency>
     <dependency>
       <groupId>io.micronaut.kubernetes</groupId>
-      <artifactId>micronaut-kubernetes-client</artifactId>
+      <artifactId>micronaut-kubernetes-client-openapi</artifactId>
       <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>io.micronaut.kubernetes</groupId>
-      <artifactId>micronaut-kubernetes-discovery-client</artifactId>
+      <artifactId>micronaut-kubernetes-client-openapi-discovery</artifactId>
       <scope>compile</scope>
     </dependency>
     <dependency>
@@ -124,7 +124,7 @@ limitations under the License.
         <configuration>
           <metadataRepository>
             <enabled>true</enabled>
-            <version>0.3.15</version>
+            <version>0.3.22</version>
           </metadataRepository>
         </configuration>
       </plugin>
