@@ -1,0 +1,9 @@
+[
+    {
+      "name": "com.zaxxer.hikari.metrics.micrometer.MicrometerMetricsTrackerFactory",
+      "allDeclaredConstructors": true,
+      "allDeclaredMethods": true,
+      "allDeclaredFields": true
+    }
+
+]
