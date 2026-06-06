@@ -29,14 +29,14 @@ limitations under the License.
   </parent>
   <properties>
     <packaging>jar</packaging>
-    <jdk.version>17</jdk.version>
-    <release.version>17</release.version>
+    <jdk.version>25</jdk.version>
+    <release.version>25</release.version>
     <exec.mainClass>com.example.Application</exec.mainClass>
     <micronaut.runtime>netty</micronaut.runtime>
     <!-- Runtime base container image to package the native executable -->
-    <micronaut.native-image.base-image-run>frolvlad/alpine-glibc:alpine-3.16</micronaut.native-image.base-image-run>
-    <!-- Using the latest GFTC Oracle GraalVM for JDK 17 Native Image container image to build the native executable -->
-    <jib.from.image>container-registry.oracle.com/graalvm/native-image:17-ol8</jib.from.image>
+    <!-- <micronaut.native-image.base-image-run>frolvlad/alpine-glibc:alpine-3.16</micronaut.native-image.base-image-run> -->
+    <!-- Using the latest GFTC Oracle GraalVM for JDK 25 Native Image container image to build the native executable -->
+    <jib.from.image>container-registry.oracle.com/graalvm/native-image:25.0.3-ol8</jib.from.image>
     <!-- Using the OCIR Repo to push the generated runtime image containing the native executable -->
     <jib.to.image>${env.OCI_OS_OKE_IMAGE}</jib.to.image>
   </properties>
@@ -143,8 +143,15 @@ limitations under the License.
         <configuration>
           <metadataRepository>
             <enabled>true</enabled>
-            <version>0.3.28</version>
+            <version>0.3.33</version>
           </metadataRepository>
+	        <!-- 23-Sep-2025: BEGIN: Added by Sachin for GraalVM 25+ -->
+          <buildArgs>
+            <buildArg>-H:+UnlockExperimentalVMOptions</buildArg>
+            <buildArg>-H:+ReportDynamicAccess</buildArg>
+            <buildArg>--emit=build-report</buildArg>
+          </buildArgs>
+          <!-- 23-Sep-2025: END: Added by Sachin for GraalVM 25+ -->
         </configuration>
       </plugin>    
       <plugin>
