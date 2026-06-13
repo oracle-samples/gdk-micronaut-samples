@@ -30,8 +30,8 @@ limitations under the License.
 
   <properties>
     <packaging>jar</packaging>
-    <jdk.version>17</jdk.version>
-    <release.version>17</release.version>
+    <jdk.version>25</jdk.version>
+    <release.version>25</release.version>
   </properties>
 
   <repositories>
@@ -154,7 +154,7 @@ limitations under the License.
        <configuration>
         <metadataRepository>
           <enabled>true</enabled>
-          <version>0.3.28</version>
+          <version>0.3.33</version>
         </metadataRepository>
        </configuration>
      </plugin>
