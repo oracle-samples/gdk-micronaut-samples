@@ -118,7 +118,7 @@ limitations under the License.
        <configuration>
         <metadataRepository>
           <enabled>true</enabled>
-          <version>0.3.33</version>
+          <version>1.0.1</version>
         </metadataRepository>
         <!-- 23-Sep-2025: BEGIN: Added by Sachin for GraalVM 25+ -->
         <buildArgs>
@@ -132,6 +132,17 @@ limitations under the License.
      <plugin>
         <groupId>io.micronaut.maven</groupId>
         <artifactId>micronaut-maven-plugin</artifactId>
+        <configuration>
+          <configurationValidation>
+            <enabled>false</enabled>
+            <suppressions>
+              <suppression>datasources.default.db-type</suppression>
+            </suppressions>
+            <failOnNotPresent>true</failOnNotPresent>
+            <validateDependencyInjection>false</validateDependencyInjection>
+            <cacheEnabled>true</cacheEnabled>
+          </configurationValidation>
+        </configuration>
       </plugin>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
