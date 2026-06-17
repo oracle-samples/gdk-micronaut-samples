@@ -3,4 +3,4 @@ defaultPackage: com.example
 testFramework: junit
 sourceLanguage: java
 buildTool: maven
-features: [app-name, gdk-bom, gdk-license, gdk-oci-cloud-app, gdk-oci-logging, graalvm, http-client, java, java-application, junit, logback, maven, maven-enforcer-plugin, micronaut-http-validation, micronaut-processing-compiler-args, native-image-properties, netty-server, properties, readme, serialization-jackson, shade, static-resources]
+features: [app-name, gdk-bom, gdk-license, gdk-oci-cloud-app, gdk-oci-logging, graalvm, http-client, java, java-application, junit, logback, maven, maven-enforcer-plugin, micronaut-configuration-validation-gradle-plugin, micronaut-http-validation, micronaut-processing-compiler-args, native-image-properties, netty-server, properties, readme, serialization-jackson, shade, static-resources]

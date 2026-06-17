@@ -74,7 +74,7 @@ class EmailController {
                 .body("Attachment email")
                 .attachment(Attachment.builder()
                         .filename(file.getFilename())
-                        .contentType(file.getContentType().orElse(APPLICATION_OCTET_STREAM_TYPE).toString())
+                        .contentType(file.getContentType().orElse(APPLICATION_OCTET_STREAM_TYPE).getName())
                         .content(file.getBytes())
                         .build()
                 )); // <8>

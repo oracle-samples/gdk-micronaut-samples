@@ -104,6 +104,10 @@ limitations under the License.
     <resources>
       <resource>
         <directory>${basedir}/src/main/resources</directory>
+        <excludes>
+          <exclude>application*.properties</exclude>
+          <exclude>bootstrap*.properties</exclude>
+        </excludes>
       </resource>
     </resources>
 
@@ -114,7 +118,7 @@ limitations under the License.
        <configuration>
         <metadataRepository>
           <enabled>true</enabled>
-          <version>0.3.33</version>
+          <version>1.0.1</version>
         </metadataRepository>
        </configuration>
      </plugin>
@@ -125,12 +129,12 @@ limitations under the License.
       <plugin>
         <groupId>gg.jte</groupId>
         <artifactId>jte-maven-plugin</artifactId>
-        <version>3.2.1</version>
+        <version>3.2.3</version>
         <dependencies>
           <dependency>
             <groupId>gg.jte</groupId>
             <artifactId>jte-native-resources</artifactId>
-            <version>3.2.1</version>
+            <version>3.2.3</version>
           </dependency>
         </dependencies>
           <configuration>
