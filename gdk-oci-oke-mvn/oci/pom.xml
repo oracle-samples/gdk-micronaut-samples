@@ -33,6 +33,7 @@ limitations under the License.
     <release.version>25</release.version>
     <exec.mainClass>com.example.Application</exec.mainClass>
     <micronaut.runtime>netty</micronaut.runtime>
+    <!-- Using Micronaut's default BASE_IMAGE_RUN: cgr.dev/chainguard/wolfi-base:latest -->
     <!-- Runtime base container image to package the native executable -->
     <!-- <micronaut.native-image.base-image-run>frolvlad/alpine-glibc:alpine-3.16</micronaut.native-image.base-image-run> -->
     <!-- Using the latest GFTC Oracle GraalVM for JDK 25 Native Image container image to build the native executable -->
@@ -143,7 +144,7 @@ limitations under the License.
         <configuration>
           <metadataRepository>
             <enabled>true</enabled>
-            <version>0.3.33</version>
+            <version>1.0.1</version>
           </metadataRepository>
 	        <!-- 23-Sep-2025: BEGIN: Added by Sachin for GraalVM 25+ -->
           <buildArgs>
@@ -170,6 +171,17 @@ limitations under the License.
       <plugin>
         <groupId>io.micronaut.maven</groupId>
         <artifactId>micronaut-maven-plugin</artifactId>
+        <configuration>
+          <configurationValidation>
+            <enabled>false</enabled>
+            <suppressions>
+              <suppression>datasources.default.db-type</suppression>
+            </suppressions>
+            <failOnNotPresent>true</failOnNotPresent>
+            <validateDependencyInjection>false</validateDependencyInjection>
+            <cacheEnabled>true</cacheEnabled>
+          </configurationValidation>
+        </configuration>
       </plugin>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
