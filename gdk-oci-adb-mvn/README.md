@@ -13,11 +13,11 @@ echo "gdk-oci-adb-mvn/*">>.git/info/sparse-checkout
 git pull --depth=1 origin main
 ```
 
-## Micronaut 4.10.16 Documentation
+## Micronaut 5.0.2 Documentation
 
-- [User Guide](https://docs.micronaut.io/4.10.16/guide/)
-- [API Reference](https://docs.micronaut.io/4.10.16/api/)
-- [Configuration Reference](https://docs.micronaut.io/4.10.16/guide/configurationreference.html)
+- [User Guide](https://docs.micronaut.io/5.0.2/guide/)
+- [API Reference](https://docs.micronaut.io/5.0.2/api/)
+- [Configuration Reference](https://docs.micronaut.io/5.0.2/guide/configurationreference.html)
 - [Micronaut Guides](https://guides.micronaut.io/)
 ---
 - [Micronaut Maven Plugin documentation](https://micronaut-projects.github.io/micronaut-maven-plugin/latest/)
